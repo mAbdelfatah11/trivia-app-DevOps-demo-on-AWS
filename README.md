@@ -2,6 +2,15 @@
 
 Following DevOps best practices on AWS to deploy sample application using various aws services like, codecommit, codedeploy, lambdac & step functions, api gateway, CI/CD beanstalk and others, will use branching strategy to make project more efficient and modularized, so..
 
+### Meet the application
+
+> Application Architecture diagram
+![App. Architecture](attachments/Application-Architecture-diagram.png)
+
+> Step function state machine definition
+![step function demo](attachments/step-function-state-machine-definition.png)
+
+
 ### pre-requests
 
 Familiarize yourself with:
