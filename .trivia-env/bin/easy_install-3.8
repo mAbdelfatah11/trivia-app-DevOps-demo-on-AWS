@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' /media/mma/604cfa95-729c-48ff-8874-c63f3c28a4cf/DATA/WideBot/IAC-scripts/DevOps-aws/course-2/EX-1/trivia-app/.trivia-env/bin/python3 "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from setuptools.command.easy_install import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
